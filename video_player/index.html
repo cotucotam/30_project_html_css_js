@@ -1,0 +1,48 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>search box</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="player">
+        <video src="./1.mp4"></video>
+        <div class="control">
+            <div class="play">
+                <i class='bx bx-play'></i>
+                <!-- <i class='bx bx-pause' ></i> -->
+            </div>
+            <div class="timer">
+                00:00/00:31
+            </div>
+            <div class="progress">
+                <div class="progress-filled">
+
+                </div>
+
+            </div>
+            <div class="prev">
+                <i class='bx bx-skip-previous'></i>
+            </div>
+            <div class="next">
+                <i class='bx bx-skip-next'></i>
+            </div>
+            <div class="volume">
+                <i class='bx bx-volume-full'></i>
+                <!-- <i class='bx bx-volume-mute' ></i> -->
+                <input type="range" min="0" max="1" step="0.1">
+            </div>
+        </div>
+    </div>
+
+
+</body>
+<script src="app.js"></script>
+
+</html>
